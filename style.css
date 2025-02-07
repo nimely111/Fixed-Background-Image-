@@ -1,0 +1,127 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+body{
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+}
+
+ .box{
+  width: 100%;
+  min-height: 600px;
+  padding: 40px 60px;
+
+  /* padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 5px; */
+
+
+  /* padding: 40px 40px 10px 5px; */
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sect-1
+{
+  height: 100vh;
+  background-image: url(images/forest.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sect-1 h1{
+  color: rgb(203, 236, 15);
+  text-align: center;
+}
+
+.sect-2{
+   background: black;
+} 
+
+.sect-2 h1{
+    color: rgb(203, 236, 15);
+}
+
+/* rhotel logo styling in sect 2 starts */
+h1 + .logo{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 50%;
+  border-top: 15px solid rgb(236,38,0);
+  border-right: 15px solid rgb(203, 236, 15);
+  border-bottom: 15px solid rgb(236,154,9);
+  border-left: 15px solid rgb(47,180,107);
+}
+/* rhotel logo styling in sect 2 ends */
+
+
+.sect-3{
+  height: 100vh;
+  background-image: url(images/view.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+} 
+
+
+ .sect-4{
+   background: black;
+} 
+
+.sect-4 h1{
+  color: rgb(203, 236, 15);
+}
+.box p{
+  font-size: 40px;
+  margin-top: 100px;
+}
+.box h1{
+  font-size: 90px;
+}
+
+
+
+.sect-5{
+  min-height: 100vh;
+  background-image: url(images/BIRU-WP.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sect-5 h1{
+  color: rgb(161, 45, 45);  
+} 
+
+
+.sect-6{
+  background:brown;
+}
+
+.sect-6 h1{
+text-align: center;
+color:black;
+}
+
+.sect-7{
+  min-height: 100vh;
+  background-image: url(images/path.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sect-7 h1{
+  color: rgb(161, 45, 45);
+}
+
+.sect-8{
+  background-color: brown;
+} 
